@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  } 
+
+section{
+    box-shadow: 0px 3px 15px #007bff ;
+    margin-top: 3%;
+}
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px; 
+    background-image: url("https://th.bing.com/th/id/OIP.BVLGwbLo6jZtkRXoH9Ki-QHaEo?pid=ImgDet&rs=1");
+    background-size:cover ;
+    background-repeat: no-repeat; 
+  } 
+  .project:hover{
+    filter: invert(1);
+    transform: scale(0.9)
+  
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+ .ko  {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 4%;
+    
+  }
+  
+ .ko:hover {
+    background-color: #0056b3;
+  } 
+  .lo{
+    margin-top:3%;
+    font-size: 22px;
+    color: #0056b3;
+  }
